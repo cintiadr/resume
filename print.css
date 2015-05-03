@@ -1,0 +1,30 @@
+#page-header {
+   display: inline;
+}
+#page-footer{
+   display: inline;  
+} 
+ 
+ 
+@page {
+  size: A4; 
+  background: white;
+  
+  @top-right {
+    content: element(header);
+  }
+  
+  @bottom-center {
+    content: element(footer);
+  }
+}
+
+div { page-break-inside: avoid; }
+#employmentHistory  { page-break-inside: auto; }
+#employmentHistory  * div { page-break-inside: avoid; }
+
+
+.break {page-break-after:always}
+
+span.page:before { content: counter(page); }
+span.pagecount:before { content: counter(pages); }

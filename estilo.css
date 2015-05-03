@@ -1,0 +1,108 @@
+h1 {
+	font-size: 26px;
+	font-weight: bold;
+	color: gray;
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-size: 22px;
+	color: gray;
+	margin-bottom: 10px;
+	
+}
+
+h3 {
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-bottom: 10px;
+	margin-top: 14px;
+}
+
+
+
+h4 {
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-bottom: 0px;
+	margin-top: 14px;
+}
+
+h5 {
+	margin-top: 14px;
+	font-style: italic;
+	font-size: 16px;
+	text-decoration: underline;
+}
+
+
+hr {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+ul {
+	list-style: disc;
+	margin-left: 35px;
+	text-indent: 10px; 
+}
+
+body {
+   padding: 15px; 
+   font-size: 13px;
+   line-height:140%;
+}
+
+#contacts {
+	width: 95%;
+	text-indent: 15px;
+	padding: 20px;
+	border: 1px solid gray;
+	
+}
+
+#page-header {
+   padding-top: 15px;
+   text-align: right;
+   display: none;
+   position: running(header);
+}
+#page-footer{
+   padding-bottom: 15px;
+   display: none;
+   text-align: right;
+   position: running(footer);
+}
+
+.bigPar {
+    margin-top: 15px;
+	margin-bottom: 15px;
+	text-indent:15px;
+}
+
+.bodypart {
+	width: 95%;
+	text-indent: 15px;
+	padding: 20px;
+	border: 1px solid gray;
+	margin-top: 20px;	
+}
+
+.small { font-size: 11px; }
+
+.rightBox { float: right; }
+
+.label { 
+	font-weight: bold; 
+	font-size: 16px;
+	font-style: italic;
+}
+
+.innerList { list-style: circle; }
+
+.notes { 
+	font-style: italic;
+	font-size: 11px;
+}
