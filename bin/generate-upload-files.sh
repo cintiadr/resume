@@ -8,7 +8,7 @@ set -x
 
 
 
-sshpass -e  sftp cintiadr@frs.sourceforge.net <<EOF
+sshpass -e  sftp cintiadr:$SSHPASS@frs.sourceforge.net <<EOF
   cd userweb/htdocs/resume
   put *.css
   put *.html
