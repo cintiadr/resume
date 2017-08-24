@@ -6,10 +6,5 @@ set -x
 
 ./bin/generate-pdf.sh
 
-sftp cintiadr:$SSHPASS@frs.sourceforge.net -o "StrictHostKeyChecking=no"  <<EOF
-  cd userweb/htdocs/resume
-  put *.css
-  put *.html
-  put target/*.pdf
-  quit
-EOF
+
+sftp cintiadr:$SSHPASS@frs.sourceforge.net -o "StrictHostKeyChecking=no" -b bin/sftp.bat 
