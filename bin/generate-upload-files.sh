@@ -4,7 +4,7 @@
 
 
 
-sftp cintiadr@frs.sourceforge.net <<EOF
+sshpass -e  sftp -oBatchMode=no -b - cintiadr@frs.sourceforge.net <<EOF
   cd userweb/htdocs/resume
   put *.css
   put *.html
