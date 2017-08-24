@@ -1,4 +1,7 @@
 language: java
 
+before_install:
+  - apt-get install sshpass
+
 script:
   - bin/generate-upload-files.sh
