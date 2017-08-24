@@ -1,5 +1,9 @@
 #!/bin/bash
 
+set -e
+set -u
+set -x
+
 ./bin/generate-pdf.sh
 
 
