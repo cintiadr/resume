@@ -1,4 +1,9 @@
 language: java
 
+before_install:
+  - pip install --user awscli
+  - export PATH=$PATH:$HOME/.local/bin
+
 script:
   - bin/generate-upload-files.sh
+  - aws -h
