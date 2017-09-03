@@ -9,7 +9,7 @@ h2 {
 	font-size: 22px;
 	color: gray;
 	margin-bottom: 10px;
-	
+
 }
 
 h3 {
@@ -46,11 +46,11 @@ hr {
 ul {
 	list-style: disc;
 	margin-left: 35px;
-	text-indent: 10px; 
+	text-indent: 10px;
 }
 
 body {
-   padding: 15px; 
+   padding: 15px;
    font-size: 13px;
    line-height:140%;
 }
@@ -60,7 +60,7 @@ body {
 	text-indent: 15px;
 	padding: 20px;
 	border: 1px solid gray;
-	
+
 }
 
 #page-header {
@@ -87,22 +87,25 @@ body {
 	text-indent: 15px;
 	padding: 20px;
 	border: 1px solid gray;
-	margin-top: 20px;	
+	margin-top: 20px;
 }
 
 .small { font-size: 11px; }
 
 .rightBox { float: right; }
 
-.label { 
-	font-weight: bold; 
+.leftBox { float: left; }
+
+
+.label {
+	font-weight: bold;
 	font-size: 16px;
 	font-style: italic;
 }
 
 .innerList { list-style: circle; }
 
-.notes { 
+.notes {
 	font-style: italic;
 	font-size: 11px;
 }

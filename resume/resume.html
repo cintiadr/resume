@@ -4,12 +4,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <title>Resume - Cintia Del Rio Calvo</title>
-
   <link rel="stylesheet" type="text/css" href="reset.css"/>
   <link rel="stylesheet" type="text/css" href="estilo.css"/>
   <link rel="stylesheet" type="text/css" href="print.css" media="print"/>
-
-
 </head>
 <body>
   <div id="page-header" class="small">
@@ -18,7 +15,7 @@
 
   <div id="page-footer" class="small">
     <p>HTML version can be found <a href="http://cintia.me/resume.html">cintia.me/resume.html</a>. </p>
-	  <p>PDF version generated with <a href="https://github.com/flyingsaucerproject/flyingsaucer/" target="_blank">XHtmlRenderer</a>, source code available <a href="https://github.org/cintiadr/html2pdf/" target="_blank">here</a></p>
+    <p>Code available in <a href="https://github.org/cintiadr/resume/" target="_blank">github.</a></p>
   </div>
 
   <div id="contacts">
@@ -43,26 +40,31 @@
 
   <div class="bodypart">
     <h2>Key skills</h2>
-	<ul>
-    <li>AWS</li>
-    <li>CI/CD</li>
-    <li>Puppet</li>
-    <li>Cloudformation</li>
-    <li>Terraform</li>
-	  <li>Maven</li>
-    <li>Git</li>
-    <li>Docker</li>
-    <li>Bash</li>
-	  <li>Java</li>
-	  <li>Agile</li>
-	</ul>
+    <table>
+      <tr>
+        <td>
+          <ul>
+            <li>AWS</li>
+            <li>Puppet</li>
+            <li>Cloudformation</li>
+            <li>Terraform</li>
+            <li>Docker</li>
+        	</ul>
+        </td>
+        <td>
+          <ul>
+            <li>CI/CD</li>
+            <li>Maven</li>
+            <li>Git</li>
+            <li>Bash</li>
+            <li>Java</li>
+            <li>Agile</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
   </div>
 
-  <div class="bodypart">
-    <h2>Tertiary Education</h2>
-	  <p>Computer Science bachelor (2003 - 2007)</p>
-    <p>Federal University of Parana - Brazil	</p>
-  </div>
 
   <div class="bodypart" id="employmentHistory">
     <h2>Employment history</h2>
@@ -123,7 +125,7 @@
 
 	 <ul class="innerList">
     <li>Linux (Ubuntu and Centos)</li>
-    <li>AWS Services: Route53, EC2, S3, IAM, VPC, RDS;</li>
+    <li>AWS Services: Cloudfront, Route53, EC2, S3, IAM, VPC, RDS;</li>
 		<li>Puppet;</li>
 		<li>Bash;</li>
     <li>Vagrant;</li>
@@ -177,6 +179,7 @@
 		<li>Puppet;</li>
 		<li>Vagrant;</li>
     <li>Packer;</li>
+    <li>Terraform;</li>
 		<li>AWS Services: Route53, EC2, S3, IAM, VPC, RDS;</li>
 		<li>Alerting/Monitoring(Graphite and Opsview)</li>
 	 </ul>
@@ -211,10 +214,27 @@
 	  <br/>
   </div>
 
+  <div class="bodypart">
+    <h2>Tertiary Education</h2>
+	  <p>Computer Science bachelor (2003 - 2007)</p>
+    <p>Federal University of Parana - Brazil	</p>
+  </div>
+
+  <div class="bodypart">
+    <h2>Talks</h2>
+	  <p>Agile Australia 2015: <a href="http://www.agileaustralia.com.au/2015/program/presentations">Simplifying your releases by automation - how Atlassian does it
+</a></p>
+  </div>
+
+
+
    <div class="bodypart">
     <h2>Open source</h2>
   	<p>For the last 3 years, I've been an active member of <a href="http://openmrs.org/">OpenMRS</a> community.</p>
   	<ul class="innerList">
+      <li>Add <a href="http://openmrs.org/2017/06/datadog/">Datadog</a> monitoring to all infrastructure.</li>
+      <li>Automate provisioning using <a href="https://github.com/openmrs/openmrs-contrib-itsm-terraform">terraform</a> and ansible. </li>
+      <li>Allow new applications to be deployed using <a href="https://github.com/openmrs/openmrs-contrib-ansible-docker-compose">Docker</a></li>
   		<li><a href="https://wiki.openmrs.org/display/docs/Releasing+a+Module+from+Bamboo">Configuring maven releases from Bamboo</a>, using some <a href="https://github.com/openmrs/openmrs-contrib-bamboo">Bash scripts</a></li>
   		<li>Upgrade <a href="https://talk.openmrs.org/t/changes-to-build-agents-on-ci-openmrs-org/906">build agents' capabilities using Puppet</a>; setting up Vagrant</li>
   		<li>General help with <a href="https://groups.google.com/a/openmrs.org/d/msg/dev-archive/fLeHpS7VVOU/XG1jCz1HebkJ">maven</a>
