@@ -5,4 +5,4 @@ My Resume, as you'd expect.
 
 Using <https://github.com/cintiadr/html2pdf> to generate PDF. 
 
-All files can be accessed in https://cintia.me/resume/
+All files can be accessed in <https://cintia.me/resume.html> and <https://cintia.me/resume.pdf>
