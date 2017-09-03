@@ -6,14 +6,14 @@ h1 {
 }
 
 h2 {
-	font-size: 22px;
+	font-size: 19px;
 	color: gray;
 	margin-bottom: 10px;
 
 }
 
 h3 {
-	font-size: 15px;
+	font-size: 16px;
 	font-weight: bold;
 	text-decoration: underline;
 	margin-bottom: 10px;
@@ -33,7 +33,7 @@ h4 {
 h5 {
 	margin-top: 14px;
 	font-style: italic;
-	font-size: 16px;
+	font-size: 12px;
 	text-decoration: underline;
 }
 
