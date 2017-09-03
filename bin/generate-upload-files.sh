@@ -10,4 +10,4 @@ wget -O target/html2pdf.jar https://s3-ap-southeast-2.amazonaws.com/cintia.me/re
 cd resume
 java -jar ../target/html2pdf.jar -f resume.html -o resume.pdf
 
-aws s3 sync . s3://cintia.me/resume
+aws s3 sync . s3://cintia.me/
