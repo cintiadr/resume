@@ -26,5 +26,16 @@ div { page-break-inside: avoid; }
 
 .break {page-break-after:always}
 
+.bodypart {
+    width: 98%;
+    text-indent: 10px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+body {
+    font-size: 11px;
+}
+
 span.page:before { content: counter(page); }
 span.pagecount:before { content: counter(pages); }
